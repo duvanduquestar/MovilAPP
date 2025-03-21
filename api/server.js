@@ -9,10 +9,11 @@ const jwt = require('jsonwebtoken');
 //const bcrypt = require('bcryptjs');
 
 // Configuración de la conexión a MongoDB
-const url = 'mongodb://localhost:27017';
+const url = 'mongodb+srv://duvi:xd4Vm.qETTHjQjW@cluster0.iec2c.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
+//const url = 'mongodb://localhost:27017';
 const dbName = 'fullstack_game';
 const client = new MongoClient(url);
-
+//xd4Vm.qETTHjQjW
 // Configuración de JWT
 const JWT_SECRET = 'secreto_del_reto4_fulñlstack';
 const JWT_EXPIRES_IN = '24h';
