@@ -5,7 +5,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 class AuthService {
   
   
-  final String baseUrl = 'http://10.0.2.2:3000';
+  final String baseUrl = 'https://movilapp.onrender.com';
   
   // Key for storing the JWT token in SharedPreferences
   static const String tokenKey = 'jwt_token';

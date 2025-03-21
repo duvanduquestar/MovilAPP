@@ -4,7 +4,7 @@ import '../models/user.dart';
 import 'auth_service.dart';
 
 class UserService {
-  final String baseUrl = 'http://10.0.2.2:3000';
+  final String baseUrl = 'https://movilapp.onrender.com';
 
   Future<List<User>> getUsers() async {
     try {
